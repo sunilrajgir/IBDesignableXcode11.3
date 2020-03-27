@@ -14,6 +14,8 @@
 		32CE2F23242CECBB004BF8A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CE2F22242CECBB004BF8A6 /* Assets.xcassets */; };
 		32CE2F26242CECBB004BF8A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CE2F24242CECBB004BF8A6 /* LaunchScreen.storyboard */; };
 		32CE2F31242CECBB004BF8A6 /* IBDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE2F30242CECBB004BF8A6 /* IBDesignTests.swift */; };
+		32CE2F3C242CED07004BF8A6 /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CE2F3B242CED07004BF8A6 /* MyCustomView.swift */; };
+		32CE2F3E242CED1D004BF8A6 /* MyCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CE2F3D242CED1D004BF8A6 /* MyCustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		32CE2F2C242CECBB004BF8A6 /* IBDesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBDesignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32CE2F30242CECBB004BF8A6 /* IBDesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignTests.swift; sourceTree = "<group>"; };
 		32CE2F32242CECBB004BF8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CE2F3B242CED07004BF8A6 /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
+		32CE2F3D242CED1D004BF8A6 /* MyCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				32CE2F22242CECBB004BF8A6 /* Assets.xcassets */,
 				32CE2F24242CECBB004BF8A6 /* LaunchScreen.storyboard */,
 				32CE2F27242CECBB004BF8A6 /* Info.plist */,
+				32CE2F3B242CED07004BF8A6 /* MyCustomView.swift */,
+				32CE2F3D242CED1D004BF8A6 /* MyCustomView.xib */,
 			);
 			path = IBDesign;
 			sourceTree = "<group>";
@@ -181,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32CE2F26242CECBB004BF8A6 /* LaunchScreen.storyboard in Resources */,
+				32CE2F3E242CED1D004BF8A6 /* MyCustomView.xib in Resources */,
 				32CE2F23242CECBB004BF8A6 /* Assets.xcassets in Resources */,
 				32CE2F21242CECB9004BF8A6 /* Main.storyboard in Resources */,
 			);
@@ -201,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32CE2F1E242CECB9004BF8A6 /* ViewController.swift in Sources */,
+				32CE2F3C242CED07004BF8A6 /* MyCustomView.swift in Sources */,
 				32CE2F1A242CECB9004BF8A6 /* AppDelegate.swift in Sources */,
 				32CE2F1C242CECB9004BF8A6 /* SceneDelegate.swift in Sources */,
 			);
